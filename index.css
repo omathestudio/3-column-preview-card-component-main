@@ -1,0 +1,101 @@
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@700&family=Lexend+Deca&display=swap');
+
+/* Challenge Info 
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(228, 45%, 44%);
+}
+*/
+
+/* Main Info */
+* {
+  font-family: 'Lexend Deca';
+  font-size: 18px;
+}
+
+body {
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: hsl(0, 0%, 95%);
+}
+
+
+/* Card styling */
+.preview-card {
+  width: 900px;
+  height: 500px;
+  color: hsla(0, 0%, 100%, 0.75);
+  display: flex;
+  border-radius: 10px;
+  overflow: hidden;
+
+}
+
+.sedan-column {
+  background-color: hsl(31, 77%, 52%);
+  padding: 30px;
+}
+
+.suvs-column {
+  background-color: hsl(184, 100%, 22%);
+  padding: 30px;
+}
+
+.luxury-column {
+  background-color: hsl(179, 100%, 13%);
+  padding: 30px;
+}
+
+
+/* Text Styling */
+.big {
+  font-family: 'Big Shoulders Display';
+  font-size: 2em;
+}
+
+
+/* Button Styling */
+.button {
+  margin-top: 80px;
+  width: 150px;
+  padding: 15px;
+  border: none;
+  border-radius: 30px;
+  cursor: pointer;
+}
+
+.button.sedan {
+  color: hsl(31, 77%, 52%);
+}
+
+.button.sedan:active {
+  background-color: hsl(31, 77%, 52%);
+  color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
+}
+
+.button.suvs {
+  color: hsl(184, 100%, 22%);
+}
+
+.button.suvs:active {
+  background-color: hsl(184, 100%, 22%);
+  color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
+}
+
+.button.luxury {
+  color: hsl(179, 100%, 13%);
+}
+
+.button.luxury:active {
+  background-color: hsl(179, 100%, 13%);
+  color: hsl(0, 0%, 95%);
+  border: solid 2px hsl(0, 0%, 95%);
+}
