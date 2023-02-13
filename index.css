@@ -28,13 +28,9 @@ body {
 
 /* Card styling */
 .preview-card {
-  width: 900px;
-  height: 500px;
   color: hsla(0, 0%, 100%, 0.75);
-  display: flex;
   border-radius: 10px;
   overflow: hidden;
-
 }
 
 .sedan-column {
@@ -57,6 +53,7 @@ body {
 .big {
   font-family: 'Big Shoulders Display';
   font-size: 2em;
+  text-transform: uppercase;
 }
 
 
@@ -98,4 +95,24 @@ body {
   background-color: hsl(179, 100%, 13%);
   color: hsl(0, 0%, 95%);
   border: solid 2px hsl(0, 0%, 95%);
+}
+
+
+/* Media Queries */
+@media (min-width: 1231px) {
+  .preview-card {
+    display: flex;
+    flex-direction: row;
+    width: 900px;
+    height: 500px;
+  }
+}
+
+@media (max-width: 1230px) {
+  .preview-card {
+    display: flex;
+    flex-direction: column;
+    width: 350px;
+    margin: 0 auto;
+  }
 }
